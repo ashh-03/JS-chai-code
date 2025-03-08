@@ -6,3 +6,7 @@
 
 // console.log(accountId);
 console.table([accountId , accountEmail , accountPass , hello , boss]);
+
+const url="https://ashishtiwary.com/ashish%20tiwary"
+
+console.log(url.split(" ", [5]));
