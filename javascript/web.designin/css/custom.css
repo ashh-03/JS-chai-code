@@ -1,0 +1,143 @@
+*
+{
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    
+    /* position: relative; */
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+ 
+/* #my-button:hover{
+    background: green;
+} */
+
+
+ul ol li{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+body{
+
+    
+    display: flex;
+   align-items: center;
+    justify-content: center;
+   height: 100vh;
+   
+   /* background:url(../img/362137.jpg) no-repeat;
+   background-size: cover;
+   background-position: center; */
+   
+}
+
+.wrapper{
+    position: absolute;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    width: 420px;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper .wrap-item{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+    border: none;
+    outline: none;
+    
+
+}
+
+.wrap-item input{
+    
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.wrap-item input::placeholder{
+    color: white;
+}
+
+.wrap-item i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 20px;
+}
+
+.check{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0px 15px 0px;
+}
+
+.check input{
+    accent-color: white;
+}
+
+.wrapper .log button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0,0,10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.register{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+
+.register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.register p a:hover{
+    text-decoration: underline;
+
+}
+

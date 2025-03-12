@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bomb_bomb</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+        }
+        .box{
+            display: flex;
+            align-items: end;
+            width: 800px;
+            height: 80vh;
+            background-color: blue;
+
+        }
+
+        .ball{
+
+            background-color: red;
+            width: 50px;
+            height: 50px ;
+            /* border-radius: 40px; */
+            animation:Ashish 8s ease-in 1s infinite  ;
+
+        }
+
+        @keyframes Ashish{
+            0%{
+            
+            }
+
+            33%{
+               transform: translate(50px,-100px);
+               
+            }
+
+            66%{
+            transform: translate(100px,0px);
+            }
+
+            99%{
+            transform: translate(150px,-100px);
+            }
+
+          
+
+           
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="box">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>

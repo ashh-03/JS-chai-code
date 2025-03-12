@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+ul,li,ol{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    max-width: 1600px;
+}
+
+
+
+                               /* FIRST PART -1 */
+
+.Part_1{
+    background: black;
+    height: 100px;
+    
+}
+
+.main_1{
+
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    border: 5px solid white;
+   
+}
+
+.logo img{
+  
+    height: 70px;
+    width: 195px;
+  
+   
+}
+
+.left_side{
+    border: 5px solid red;
+}
+
+img{
+    margin: none;
+    padding: none;
+}
+

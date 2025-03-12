@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li{
+    text-decoration: none ;
+    list-style: none;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.sea{
+
+}
+
+.sea input{
+
+}
+
+.sea button{
+    
+}
